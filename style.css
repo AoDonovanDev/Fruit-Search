@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(red, blue, green);
+}
+.search-container {
+ opacity: 0.4;
+ display: flex;
+ flex-direction: column;
+}
+.search-container input,
+.search-container .suggestions {
+  width: 14%;
+}
+.search-container input {
+ position: absolute;
+ left: 40%;
+ top: 400px;
+}
+.search-container .suggestions {
+  position: absolute;
+  left: 40%;
+  top: 424px;
+}
+ul li {
+  list-style: none;
+  background-color: aliceblue;
+}
+ul li:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
